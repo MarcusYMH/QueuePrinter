@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="🔵 Connect / Scan Printer"/>
+
+        <TextView
+            android:id="@+id/tvPrinter"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Printer: Not selected"/>
+
+        <!-- Counter 1 -->
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Counter 1" android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnC1Next"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Print Next (C1)"/>
+        <Button
+            android:id="@+id/btnC1Reprint"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Reprint Last (C1)"/>
+        <Button
+            android:id="@+id/btnC1Pick"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Select Printed Number (C1)"/>
+        <Button
+            android:id="@+id/btnC1Reset"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Reset (C1)"/>
+
+        <!-- Counter 2 -->
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Counter 2" android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnC2Next"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Print Next (C2)"/>
+        <Button
+            android:id="@+id/btnC2Reprint"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Reprint Last (C2)"/>
+        <Button
+            android:id="@+id/btnC2Pick"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Select Printed Number (C2)"/>
+        <Button
+            android:id="@+id/btnC2Reset"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Reset (C2)"/>
+    </LinearLayout>
+</ScrollView>
